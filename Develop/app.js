@@ -108,7 +108,7 @@ function init(){
     });
   }
   function printHTML(data){
-    fs.writeFile('../output/team.html' ,render(data), (err) => {
+    fs.writeFile('./output/team.html' ,render(data), (err) => {
       if(err) {
         throw err;
       };
